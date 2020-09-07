@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB8C6BA3DA329E307655972 /* Pods_WiproTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D088DBAD4B26E7A3A85FC825 /* Pods_WiproTestTests.framework */; };
+		F1FEF2F72503A9EF0029AD58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEF2F62503A9EF0029AD58 /* AppDelegate.swift */; };
+		F1FEF2F92503A9EF0029AD58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEF2F82503A9EF0029AD58 /* SceneDelegate.swift */; };
+		F1FEF2FE2503A9EF0029AD58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FEF2FC2503A9EF0029AD58 /* Main.storyboard */; };
+		F1FEF3002503A9F10029AD58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FEF2FF2503A9F10029AD58 /* Assets.xcassets */; };
+		F1FEF3032503A9F10029AD58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FEF3012503A9F10029AD58 /* LaunchScreen.storyboard */; };
+		F1FEF30E2503A9F10029AD58 /* WiproTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEF30D2503A9F10029AD58 /* WiproTestTests.swift */; };
+		F1FEF3192503AA060029AD58 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEF3182503AA060029AD58 /* Album.swift */; };
+		F1FEF31C2503E0CD0029AD58 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEF31A2503E0CD0029AD58 /* AlbumTableViewCell.swift */; };
+		F1FEF31D2503E0CD0029AD58 /* AlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1FEF31B2503E0CD0029AD58 /* AlbumTableViewCell.xib */; };
+		F1FEF31F2503E2EC0029AD58 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEF31E2503E2EC0029AD58 /* AlbumsViewController.swift */; };
+		F1FEF3212503E4840029AD58 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEF3202503E4840029AD58 /* AlbumViewModel.swift */; };
+		F1FEF3232503FE530029AD58 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEF3222503FE530029AD58 /* AppConstants.swift */; };
+		F1FEF32525049FCA0029AD58 /* AlbumDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEF32425049FCA0029AD58 /* AlbumDetailsViewController.swift */; };
+		F8564B3D52DDB73D0249977A /* Pods_WiproTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B5B964328AEFCC0C83C9CD /* Pods_WiproTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1FEF30A2503A9F10029AD58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1FEF2EB2503A9EF0029AD58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1FEF2F22503A9EF0029AD58;
+			remoteInfo = WiproTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4450F55FA589A9FA2098AF25 /* Pods-WiproTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTest.debug.xcconfig"; path = "Target Support Files/Pods-WiproTest/Pods-WiproTest.debug.xcconfig"; sourceTree = "<group>"; };
+		6613EA1186771D05DCDBE24B /* Pods-WiproTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTest.release.xcconfig"; path = "Target Support Files/Pods-WiproTest/Pods-WiproTest.release.xcconfig"; sourceTree = "<group>"; };
+		8945D9CFBA31DBB7CAF4B88E /* Pods-WiproTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTestTests.debug.xcconfig"; path = "Target Support Files/Pods-WiproTestTests/Pods-WiproTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F969EE2800432FAFF3F4100 /* Pods-WiproTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTestTests.release.xcconfig"; path = "Target Support Files/Pods-WiproTestTests/Pods-WiproTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6B5B964328AEFCC0C83C9CD /* Pods_WiproTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiproTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D088DBAD4B26E7A3A85FC825 /* Pods_WiproTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiproTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FEF2F32503A9EF0029AD58 /* WiproTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FEF2F62503A9EF0029AD58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1FEF2F82503A9EF0029AD58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1FEF2FD2503A9EF0029AD58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1FEF2FF2503A9F10029AD58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1FEF3022503A9F10029AD58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1FEF3042503A9F10029AD58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FEF3092503A9F10029AD58 /* WiproTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiproTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FEF30D2503A9F10029AD58 /* WiproTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproTestTests.swift; sourceTree = "<group>"; };
+		F1FEF30F2503A9F10029AD58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FEF3182503AA060029AD58 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		F1FEF31A2503E0CD0029AD58 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		F1FEF31B2503E0CD0029AD58 /* AlbumTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumTableViewCell.xib; sourceTree = "<group>"; };
+		F1FEF31E2503E2EC0029AD58 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		F1FEF3202503E4840029AD58 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		F1FEF3222503FE530029AD58 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		F1FEF32425049FCA0029AD58 /* AlbumDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1FEF2F02503A9EF0029AD58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8564B3D52DDB73D0249977A /* Pods_WiproTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FEF3062503A9F10029AD58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB8C6BA3DA329E307655972 /* Pods_WiproTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10B3FDDDB9131A363FDD04D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4450F55FA589A9FA2098AF25 /* Pods-WiproTest.debug.xcconfig */,
+				6613EA1186771D05DCDBE24B /* Pods-WiproTest.release.xcconfig */,
+				8945D9CFBA31DBB7CAF4B88E /* Pods-WiproTestTests.debug.xcconfig */,
+				9F969EE2800432FAFF3F4100 /* Pods-WiproTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		22B909836A53D860F0D162E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6B5B964328AEFCC0C83C9CD /* Pods_WiproTest.framework */,
+				D088DBAD4B26E7A3A85FC825 /* Pods_WiproTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1FEF2EA2503A9EF0029AD58 = {
+			isa = PBXGroup;
+			children = (
+				F1FEF2F52503A9EF0029AD58 /* WiproTest */,
+				F1FEF30C2503A9F10029AD58 /* WiproTestTests */,
+				F1FEF2F42503A9EF0029AD58 /* Products */,
+				10B3FDDDB9131A363FDD04D1 /* Pods */,
+				22B909836A53D860F0D162E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FEF2F42503A9EF0029AD58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEF2F32503A9EF0029AD58 /* WiproTest.app */,
+				F1FEF3092503A9F10029AD58 /* WiproTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1FEF2F52503A9EF0029AD58 /* WiproTest */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEF2F62503A9EF0029AD58 /* AppDelegate.swift */,
+				F1FEF2F82503A9EF0029AD58 /* SceneDelegate.swift */,
+				F1FEF2FC2503A9EF0029AD58 /* Main.storyboard */,
+				F1FEF2FF2503A9F10029AD58 /* Assets.xcassets */,
+				F1FEF3012503A9F10029AD58 /* LaunchScreen.storyboard */,
+				F1FEF3042503A9F10029AD58 /* Info.plist */,
+				F1FEF3182503AA060029AD58 /* Album.swift */,
+				F1FEF31A2503E0CD0029AD58 /* AlbumTableViewCell.swift */,
+				F1FEF31B2503E0CD0029AD58 /* AlbumTableViewCell.xib */,
+				F1FEF31E2503E2EC0029AD58 /* AlbumsViewController.swift */,
+				F1FEF3202503E4840029AD58 /* AlbumViewModel.swift */,
+				F1FEF3222503FE530029AD58 /* AppConstants.swift */,
+				F1FEF32425049FCA0029AD58 /* AlbumDetailsViewController.swift */,
+			);
+			path = WiproTest;
+			sourceTree = "<group>";
+		};
+		F1FEF30C2503A9F10029AD58 /* WiproTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEF30D2503A9F10029AD58 /* WiproTestTests.swift */,
+				F1FEF30F2503A9F10029AD58 /* Info.plist */,
+			);
+			path = WiproTestTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1FEF2F22503A9EF0029AD58 /* WiproTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FEF3122503A9F10029AD58 /* Build configuration list for PBXNativeTarget "WiproTest" */;
+			buildPhases = (
+				F68DDB357DC5F807E8313FCB /* [CP] Check Pods Manifest.lock */,
+				F1FEF2EF2503A9EF0029AD58 /* Sources */,
+				F1FEF2F02503A9EF0029AD58 /* Frameworks */,
+				F1FEF2F12503A9EF0029AD58 /* Resources */,
+				F602FFE877025971B76F2A44 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiproTest;
+			productName = WiproTest;
+			productReference = F1FEF2F32503A9EF0029AD58 /* WiproTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1FEF3082503A9F10029AD58 /* WiproTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FEF3152503A9F10029AD58 /* Build configuration list for PBXNativeTarget "WiproTestTests" */;
+			buildPhases = (
+				E2A0A07D31F7437106916C3E /* [CP] Check Pods Manifest.lock */,
+				F1FEF3052503A9F10029AD58 /* Sources */,
+				F1FEF3062503A9F10029AD58 /* Frameworks */,
+				F1FEF3072503A9F10029AD58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1FEF30B2503A9F10029AD58 /* PBXTargetDependency */,
+			);
+			name = WiproTestTests;
+			productName = WiproTestTests;
+			productReference = F1FEF3092503A9F10029AD58 /* WiproTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1FEF2EB2503A9EF0029AD58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Siva Krishna";
+				TargetAttributes = {
+					F1FEF2F22503A9EF0029AD58 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F1FEF3082503A9F10029AD58 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F1FEF2F22503A9EF0029AD58;
+					};
+				};
+			};
+			buildConfigurationList = F1FEF2EE2503A9EF0029AD58 /* Build configuration list for PBXProject "WiproTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1FEF2EA2503A9EF0029AD58;
+			productRefGroup = F1FEF2F42503A9EF0029AD58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1FEF2F22503A9EF0029AD58 /* WiproTest */,
+				F1FEF3082503A9F10029AD58 /* WiproTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1FEF2F12503A9EF0029AD58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FEF3032503A9F10029AD58 /* LaunchScreen.storyboard in Resources */,
+				F1FEF3002503A9F10029AD58 /* Assets.xcassets in Resources */,
+				F1FEF2FE2503A9EF0029AD58 /* Main.storyboard in Resources */,
+				F1FEF31D2503E0CD0029AD58 /* AlbumTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FEF3072503A9F10029AD58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E2A0A07D31F7437106916C3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WiproTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F602FFE877025971B76F2A44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WiproTest/Pods-WiproTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WiproTest/Pods-WiproTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WiproTest/Pods-WiproTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F68DDB357DC5F807E8313FCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WiproTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1FEF2EF2503A9EF0029AD58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FEF3212503E4840029AD58 /* AlbumViewModel.swift in Sources */,
+				F1FEF31C2503E0CD0029AD58 /* AlbumTableViewCell.swift in Sources */,
+				F1FEF32525049FCA0029AD58 /* AlbumDetailsViewController.swift in Sources */,
+				F1FEF31F2503E2EC0029AD58 /* AlbumsViewController.swift in Sources */,
+				F1FEF2F72503A9EF0029AD58 /* AppDelegate.swift in Sources */,
+				F1FEF3232503FE530029AD58 /* AppConstants.swift in Sources */,
+				F1FEF2F92503A9EF0029AD58 /* SceneDelegate.swift in Sources */,
+				F1FEF3192503AA060029AD58 /* Album.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FEF3052503A9F10029AD58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FEF30E2503A9F10029AD58 /* WiproTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1FEF30B2503A9F10029AD58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1FEF2F22503A9EF0029AD58 /* WiproTest */;
+			targetProxy = F1FEF30A2503A9F10029AD58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1FEF2FC2503A9EF0029AD58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FEF2FD2503A9EF0029AD58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1FEF3012503A9F10029AD58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FEF3022503A9F10029AD58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1FEF3102503A9F10029AD58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1FEF3112503A9F10029AD58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1FEF3132503A9F10029AD58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4450F55FA589A9FA2098AF25 /* Pods-WiproTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6293E4734W;
+				INFOPLIST_FILE = WiproTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.trellisys.WiproTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1FEF3142503A9F10029AD58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6613EA1186771D05DCDBE24B /* Pods-WiproTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6293E4734W;
+				INFOPLIST_FILE = WiproTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.trellisys.WiproTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1FEF3162503A9F10029AD58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8945D9CFBA31DBB7CAF4B88E /* Pods-WiproTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6293E4734W;
+				INFOPLIST_FILE = WiproTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.trellisys.WiproTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiproTest.app/WiproTest";
+			};
+			name = Debug;
+		};
+		F1FEF3172503A9F10029AD58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F969EE2800432FAFF3F4100 /* Pods-WiproTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6293E4734W;
+				INFOPLIST_FILE = WiproTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.trellisys.WiproTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiproTest.app/WiproTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1FEF2EE2503A9EF0029AD58 /* Build configuration list for PBXProject "WiproTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FEF3102503A9F10029AD58 /* Debug */,
+				F1FEF3112503A9F10029AD58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FEF3122503A9F10029AD58 /* Build configuration list for PBXNativeTarget "WiproTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FEF3132503A9F10029AD58 /* Debug */,
+				F1FEF3142503A9F10029AD58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FEF3152503A9F10029AD58 /* Build configuration list for PBXNativeTarget "WiproTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FEF3162503A9F10029AD58 /* Debug */,
+				F1FEF3172503A9F10029AD58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1FEF2EB2503A9EF0029AD58 /* Project object */;
+}
